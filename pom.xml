@@ -35,4 +35,8 @@
       <url>http://ec2-18-221-201-246.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/devops-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
+<properties>
+	<maven.compiler.source>1.6</maven.compiler.source>
+	<maven.compiler.target>1.6</maven.compiler.target>
+</properties>
 </project>
